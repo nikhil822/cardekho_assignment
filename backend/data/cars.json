@@ -1,0 +1,572 @@
+[
+  {
+    "id": "44f0dd1d-e091-499c-80f8-86cd619e13a1",
+    "make": "Maruti Suzuki",
+    "model": "Swift",
+    "variant": "ZXI",
+    "min_price": 650000,
+    "max_price": 850000,
+    "body_type": "Hatchback",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 22.4,
+    "safety_rating": 4,
+    "features": [
+      "Android Auto",
+      "Apple CarPlay",
+      "Rear AC Vents",
+      "Push Button Start"
+    ]
+  },
+  {
+    "id": "65b623b9-b80a-4178-a2fa-6a08280be427",
+    "make": "Maruti Suzuki",
+    "model": "Baleno",
+    "variant": "Alpha",
+    "min_price": 750000,
+    "max_price": 980000,
+    "body_type": "Hatchback",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 22.9,
+    "safety_rating": 4,
+    "features": [
+      "360 Camera",
+      "Heads-up Display",
+      "Android Auto",
+      "Apple CarPlay",
+      "Cruise Control"
+    ]
+  },
+  {
+    "id": "97eda1e3-3652-4ade-abb0-6fa5039e63e6",
+    "make": "Hyundai",
+    "model": "i20",
+    "variant": "Asta",
+    "min_price": 800000,
+    "max_price": 1150000,
+    "body_type": "Hatchback",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 20.3,
+    "safety_rating": 3,
+    "features": [
+      "Sunroof",
+      "Wireless Charger",
+      "Android Auto",
+      "Apple CarPlay"
+    ]
+  },
+  {
+    "id": "07cf5e58-cdce-476d-aad2-a6efcace6f4b",
+    "make": "Hyundai",
+    "model": "Venue",
+    "variant": "SX",
+    "min_price": 950000,
+    "max_price": 1450000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 18.3,
+    "safety_rating": 4,
+    "features": [
+      "Sunroof",
+      "Connected Car Tech",
+      "Wireless Charger",
+      "Cruise Control"
+    ]
+  },
+  {
+    "id": "b85cb866-b432-474c-92bc-1824bd619bf7",
+    "make": "Hyundai",
+    "model": "Creta",
+    "variant": "SX(O)",
+    "min_price": 1450000,
+    "max_price": 2100000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 17.8,
+    "safety_rating": 3,
+    "features": [
+      "Panoramic Sunroof",
+      "Ventilated Seats",
+      "360 Camera",
+      "Wireless Charger",
+      "Android Auto",
+      "Apple CarPlay",
+      "Connected Car Tech"
+    ]
+  },
+  {
+    "id": "31f11f42-68ab-425a-b509-1e3704828e40",
+    "make": "Kia",
+    "model": "Sonet",
+    "variant": "HTX",
+    "min_price": 900000,
+    "max_price": 1500000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 18.4,
+    "safety_rating": 3,
+    "features": [
+      "Ventilated Seats",
+      "Air Purifier",
+      "Wireless Charger",
+      "Connected Car Tech"
+    ]
+  },
+  {
+    "id": "802a54e6-4b6a-4258-9e05-80bbc561c2d2",
+    "make": "Kia",
+    "model": "Seltos",
+    "variant": "GTX+",
+    "min_price": 1500000,
+    "max_price": 2200000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 17.9,
+    "safety_rating": 3,
+    "features": [
+      "Panoramic Sunroof",
+      "ADAS",
+      "360 Camera",
+      "Ventilated Seats",
+      "Wireless Charger"
+    ]
+  },
+  {
+    "id": "2980bba5-35b0-4c4f-92fc-4d31af187675",
+    "make": "Honda",
+    "model": "City",
+    "variant": "ZX",
+    "min_price": 1250000,
+    "max_price": 1650000,
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 18.4,
+    "safety_rating": 5,
+    "features": [
+      "Sunroof",
+      "Lane Watch Camera",
+      "Android Auto",
+      "Apple CarPlay",
+      "Cruise Control"
+    ]
+  },
+  {
+    "id": "f74a3503-9b46-4cfd-997b-7eeef962679f",
+    "make": "Honda",
+    "model": "Elevate",
+    "variant": "ZX",
+    "min_price": 1200000,
+    "max_price": 1700000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 16.9,
+    "safety_rating": 5,
+    "features": [
+      "ADAS",
+      "Sunroof",
+      "Lane Watch Camera",
+      "Wireless Charger"
+    ]
+  },
+  {
+    "id": "0c5a939c-9e14-45ab-b239-57ebe9b877f2",
+    "make": "Toyota",
+    "model": "Glanza",
+    "variant": "V",
+    "min_price": 800000,
+    "max_price": 1000000,
+    "body_type": "Hatchback",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 22.3,
+    "safety_rating": 4,
+    "features": [
+      "Heads-up Display",
+      "360 Camera",
+      "Android Auto",
+      "Apple CarPlay"
+    ]
+  },
+  {
+    "id": "048e4e99-d749-4581-b2ce-bdeca0397e68",
+    "make": "Toyota",
+    "model": "Urban Cruiser Hyryder",
+    "variant": "V Hybrid",
+    "min_price": 1650000,
+    "max_price": 2350000,
+    "body_type": "SUV",
+    "fuel": "Hybrid",
+    "seats": 5,
+    "mileage": 27.9,
+    "safety_rating": 4,
+    "features": [
+      "Panoramic Sunroof",
+      "360 Camera",
+      "Ventilated Seats",
+      "Connected Car Tech"
+    ]
+  },
+  {
+    "id": "275ba64c-723c-4354-9ae9-2f5366d6407e",
+    "make": "Mahindra",
+    "model": "XUV 3XO",
+    "variant": "AX7",
+    "min_price": 900000,
+    "max_price": 1550000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 18.2,
+    "safety_rating": 5,
+    "features": [
+      "Panoramic Sunroof",
+      "ADAS",
+      "360 Camera",
+      "Wireless Charger"
+    ]
+  },
+  {
+    "id": "8b04bcf1-cbd6-4e2c-85fc-763dd51231e0",
+    "make": "Mahindra",
+    "model": "Scorpio N",
+    "variant": "Z8",
+    "min_price": 1750000,
+    "max_price": 2600000,
+    "body_type": "SUV",
+    "fuel": "Diesel",
+    "seats": 7,
+    "mileage": 15.2,
+    "safety_rating": 5,
+    "features": [
+      "Sunroof",
+      "Sony Sound System",
+      "Cruise Control"
+    ]
+  },
+  {
+    "id": "6c151e74-8464-4ea8-90a9-9d20e97e973b",
+    "make": "Mahindra",
+    "model": "XUV700",
+    "variant": "AX7 L",
+    "min_price": 1800000,
+    "max_price": 3000000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 7,
+    "mileage": 16.8,
+    "safety_rating": 5,
+    "features": [
+      "ADAS",
+      "Panoramic Sunroof",
+      "360 Camera",
+      "Adaptive Cruise Control",
+      "Wireless Charger",
+      "Leather Seats"
+    ]
+  },
+  {
+    "id": "c4e74a9b-86af-4bcf-822c-69e46879d630",
+    "make": "Tata",
+    "model": "Punch",
+    "variant": "Creative",
+    "min_price": 700000,
+    "max_price": 1100000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 20.1,
+    "safety_rating": 5,
+    "features": [
+      "Cruise Control",
+      "Android Auto",
+      "Apple CarPlay"
+    ]
+  },
+  {
+    "id": "daa5875b-9230-49fb-a5d2-1aee7b9e53fb",
+    "make": "Tata",
+    "model": "Nexon",
+    "variant": "Fearless+",
+    "min_price": 900000,
+    "max_price": 1650000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 17.4,
+    "safety_rating": 5,
+    "features": [
+      "360 Camera",
+      "Sunroof",
+      "Ventilated Seats",
+      "Air Purifier"
+    ]
+  },
+  {
+    "id": "b5b09e3a-042c-4d28-9f54-c740c159c2af",
+    "make": "Tata",
+    "model": "Harrier",
+    "variant": "Fearless",
+    "min_price": 1550000,
+    "max_price": 2700000,
+    "body_type": "SUV",
+    "fuel": "Diesel",
+    "seats": 5,
+    "mileage": 16.8,
+    "safety_rating": 5,
+    "features": [
+      "Panoramic Sunroof",
+      "ADAS",
+      "360 Camera",
+      "Ventilated Seats"
+    ]
+  },
+  {
+    "id": "d6908a26-d059-4789-87f4-0d37a20b8354",
+    "make": "Tata",
+    "model": "Safari",
+    "variant": "Accomplished+",
+    "min_price": 1650000,
+    "max_price": 3100000,
+    "body_type": "SUV",
+    "fuel": "Diesel",
+    "seats": 7,
+    "mileage": 16.3,
+    "safety_rating": 5,
+    "features": [
+      "Panoramic Sunroof",
+      "ADAS",
+      "360 Camera",
+      "Ventilated Seats",
+      "Air Purifier"
+    ]
+  },
+  {
+    "id": "9572ca66-3157-4856-8669-d664af083abd",
+    "make": "Volkswagen",
+    "model": "Virtus",
+    "variant": "GT Plus",
+    "min_price": 1400000,
+    "max_price": 1900000,
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 18.1,
+    "safety_rating": 5,
+    "features": [
+      "Sunroof",
+      "Ventilated Seats",
+      "Wireless Charger"
+    ]
+  },
+  {
+    "id": "497de3ed-4a0f-4836-8554-e1d0ef2ca4f7",
+    "make": "Volkswagen",
+    "model": "Taigun",
+    "variant": "GT Plus",
+    "min_price": 1200000,
+    "max_price": 2000000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 17.9,
+    "safety_rating": 5,
+    "features": [
+      "Sunroof",
+      "Wireless Charger",
+      "Connected Car Tech"
+    ]
+  },
+  {
+    "id": "7ba9e29a-8a33-4d20-99a7-22b018d663b7",
+    "make": "Skoda",
+    "model": "Slavia",
+    "variant": "Style",
+    "min_price": 1300000,
+    "max_price": 1850000,
+    "body_type": "Sedan",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 18.7,
+    "safety_rating": 5,
+    "features": [
+      "Sunroof",
+      "Ventilated Seats",
+      "Wireless Charger"
+    ]
+  },
+  {
+    "id": "0471c21f-a263-4c2d-8f19-d069b2a070ad",
+    "make": "Skoda",
+    "model": "Kushaq",
+    "variant": "Style",
+    "min_price": 1250000,
+    "max_price": 1950000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 18.1,
+    "safety_rating": 5,
+    "features": [
+      "Sunroof",
+      "Wireless Charger",
+      "Cruise Control"
+    ]
+  },
+  {
+    "id": "17bdd99f-d337-4ca3-b8cf-1a7ce0f4ab42",
+    "make": "MG",
+    "model": "Astor",
+    "variant": "Sharp",
+    "min_price": 1100000,
+    "max_price": 1800000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 15.4,
+    "safety_rating": 5,
+    "features": [
+      "ADAS",
+      "Panoramic Sunroof",
+      "360 Camera",
+      "Connected Car Tech"
+    ]
+  },
+  {
+    "id": "0963f18b-87d3-42cb-a1fd-15497cb87226",
+    "make": "MG",
+    "model": "Hector",
+    "variant": "Sharp Pro",
+    "min_price": 1500000,
+    "max_price": 2500000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 14.2,
+    "safety_rating": 5,
+    "features": [
+      "Panoramic Sunroof",
+      "ADAS",
+      "Ventilated Seats",
+      "360 Camera"
+    ]
+  },
+  {
+    "id": "88e46914-7197-49de-b3ba-26c768936452",
+    "make": "Renault",
+    "model": "Kiger",
+    "variant": "RXZ",
+    "min_price": 700000,
+    "max_price": 1100000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 20.5,
+    "safety_rating": 4,
+    "features": [
+      "Wireless Charger",
+      "Cruise Control",
+      "Android Auto"
+    ]
+  },
+  {
+    "id": "f39c524d-aa18-4425-a152-27e5a1c35746",
+    "make": "Nissan",
+    "model": "Magnite",
+    "variant": "XV Premium",
+    "min_price": 650000,
+    "max_price": 1150000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 20.0,
+    "safety_rating": 4,
+    "features": [
+      "360 Camera",
+      "Wireless Charger",
+      "Cruise Control"
+    ]
+  },
+  {
+    "id": "c7e1bad2-1761-4c3e-9192-97973b984a29",
+    "make": "Citroen",
+    "model": "C3 Aircross",
+    "variant": "Max",
+    "min_price": 1000000,
+    "max_price": 1450000,
+    "body_type": "SUV",
+    "fuel": "Petrol",
+    "seats": 7,
+    "mileage": 18.5,
+    "safety_rating": 4,
+    "features": [
+      "Wireless Charger",
+      "Android Auto",
+      "Apple CarPlay"
+    ]
+  },
+  {
+    "id": "6fc75048-39ab-4b4b-ac7f-f2c8b7a54918",
+    "make": "Toyota",
+    "model": "Innova Hycross",
+    "variant": "ZX Hybrid",
+    "min_price": 2500000,
+    "max_price": 3500000,
+    "body_type": "MPV",
+    "fuel": "Hybrid",
+    "seats": 7,
+    "mileage": 23.2,
+    "safety_rating": 5,
+    "features": [
+      "ADAS",
+      "Panoramic Sunroof",
+      "360 Camera",
+      "Ventilated Seats",
+      "Leather Seats"
+    ]
+  },
+  {
+    "id": "6b4684fa-d116-4d8f-bf00-a52b47f4428f",
+    "make": "Mahindra",
+    "model": "Bolero Neo",
+    "variant": "N10",
+    "min_price": 1000000,
+    "max_price": 1300000,
+    "body_type": "SUV",
+    "fuel": "Diesel",
+    "seats": 7,
+    "mileage": 17.3,
+    "safety_rating": 4,
+    "features": [
+      "Cruise Control",
+      "Rear AC Vents",
+      "Keyless Entry"
+    ]
+  },
+  {
+    "id": "697597f1-6c69-4126-9633-93c4a42f7a03",
+    "make": "Maruti Suzuki",
+    "model": "Grand Vitara",
+    "variant": "Alpha Hybrid",
+    "min_price": 1700000,
+    "max_price": 2100000,
+    "body_type": "SUV",
+    "fuel": "Hybrid",
+    "seats": 5,
+    "mileage": 27.9,
+    "safety_rating": 4,
+    "features": [
+      "Panoramic Sunroof",
+      "360 Camera",
+      "Ventilated Seats",
+      "Heads-up Display"
+    ]
+  }
+]
