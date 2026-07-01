@@ -6,6 +6,7 @@ import (
 	"cardekho-assignment/internals/repository"
 	"cardekho-assignment/internals/services"
 	"log"
+	"os"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -39,7 +40,11 @@ func main() {
 	router.GET("/cars/:id", carHandler.GetCarById)
 
 	log.Println("Server is running on :8080")
-	if err := router.Run(":8080"); err != nil {
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	if err := router.Run(":" + port); err != nil {
 		log.Fatal(err)
 	}
 }
