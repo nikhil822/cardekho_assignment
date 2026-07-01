@@ -14,7 +14,6 @@ import CompareArrowsIcon from "@mui/icons-material/CompareArrows";
 import { useCarDetails } from "../../hooks/useCarDetails";
 import { useAppData } from "../../context/AppDataContext";
 import EmptyState from "../../components/ui/EmptyState";
-import ScoreGauge from "../../components/cards/ScoreGauge";
 import { tokens } from "../../theme/theme";
 import { formatMileage, formatPriceRange } from "../../utils/format";
 

@@ -29,36 +29,33 @@ export interface CarDetails {
   variant: string;
   min_price: number;
   max_price: number;
+  body_type: string;
   fuel: string;
   seats: number;
   mileage: number;
   safety_rating: number;
   features: string[];
-  score: number; // overall match score, 0-100
+  score?: number; // present on some recommendation/detail variants
   score_breakdown?: ScoreBreakdown;
   highlights?: string[]; // short explanation bullets
   image_url?: string;
-}
-
-export interface CarSummary {
-  score_breakdown: ScoreBreakdown; // overall match score, 0-100
-  cars: CarDetails[];
-  
-}
-
-export interface CarSpecs {
   description?: string;
   engine?: string;
   transmission?: string;
-  body_type?: string;
   boot_space_litres?: number;
   ground_clearance_mm?: number;
   airbags?: number;
   warranty?: string;
 }
 
+export interface RecommendationResult {
+  score: number; // overall match score, 0-100
+  score_breakdown?: ScoreBreakdown;
+  cars: CarDetails[];
+}
+
 export interface RecommendationResponse {
-  results: CarSummary[];
+  results: RecommendationResult[];
   count: number;
 }
 

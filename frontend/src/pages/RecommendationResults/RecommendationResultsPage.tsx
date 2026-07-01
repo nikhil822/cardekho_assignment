@@ -15,7 +15,7 @@ import CarCardSkeleton from "../../components/ui/CarCardSkeleton";
 import EmptyState from "../../components/ui/EmptyState";
 import { useAppData } from "../../context/AppDataContext";
 import { tokens } from "../../theme/theme";
-import type { CarDetails, SortOption } from "../../types/car";
+import type { RecommendationResult, SortOption } from "../../types/car";
 
 const SORT_LABELS: Record<SortOption, string> = {
   best_match: "Best match",
@@ -24,15 +24,19 @@ const SORT_LABELS: Record<SortOption, string> = {
   best_mileage: "Best mileage",
 };
 
-function sortCars(cars: CarDetails[], sortBy: SortOption): CarDetails[] {
-  const copy = [...cars];
+function getPrimaryCar(result: RecommendationResult) {
+  return result.cars[0];
+}
+
+function sortResults(results: RecommendationResult[], sortBy: SortOption): RecommendationResult[] {
+  const copy = [...results];
   switch (sortBy) {
     case "lowest_price":
-      return copy.sort((a, b) => a.min_price - b.max_price);
+      return copy.sort((a, b) => (getPrimaryCar(a)?.min_price ?? 0) - (getPrimaryCar(b)?.min_price ?? 0));
     case "highest_safety":
-      return copy.sort((a, b) => b.safety_rating - a.safety_rating);
+      return copy.sort((a, b) => (getPrimaryCar(b)?.safety_rating ?? 0) - (getPrimaryCar(a)?.safety_rating ?? 0));
     case "best_mileage":
-      return copy.sort((a, b) => b.mileage - a.mileage);
+      return copy.sort((a, b) => (getPrimaryCar(b)?.mileage ?? 0) - (getPrimaryCar(a)?.mileage ?? 0));
     default:
       return copy.sort((a, b) => b.score - a.score);
   }
@@ -43,9 +47,7 @@ export default function RecommendationResultsPage() {
   const { results, isLoading, error, compareIds, toggleCompare } = useAppData();
   const [sortBy, setSortBy] = useState<SortOption>("best_match");
 
-  const sortedResults = useMemo(() => sortCars(results as any, sortBy), [results, sortBy]);
-          {console.log("sortedResults>>>>", sortedResults)}
-
+  const sortedResults = useMemo(() => sortResults(results, sortBy), [results, sortBy]);
   
   return (
     <Container maxWidth="lg" sx={{ py: { xs: 4, md: 6 }, pb: compareIds.length ? 14 : 6 }}>
@@ -121,14 +123,18 @@ export default function RecommendationResultsPage() {
             gap: 3,
           }}
         >
-          {sortedResults.map((car) => (
+          {sortedResults.map((result) => {
+            const car = getPrimaryCar(result);
+            if (!car) return null;
+            return (
             <CarCard
               key={car.id}
-              car={car as any}
+              result={result}
               isSelectedForCompare={compareIds.includes(car.id)}
               onToggleCompare={toggleCompare}
             />
-          ))}
+            );
+          })}
         </Box>
       )}
 

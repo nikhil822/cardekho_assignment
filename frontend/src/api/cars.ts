@@ -1,7 +1,7 @@
 import { apiClient } from "./client";
 import type {
   CarDetails,
-  CarSummary,
+  RecommendationResult,
   RecommendationFilters,
   RecommendationResponse,
 } from "../types/car";
@@ -22,9 +22,9 @@ function toRecommendPayload(filters: RecommendationFilters) {
 
 export async function fetchRecommendations(
   filters: RecommendationFilters
-): Promise<CarSummary[]> {
+): Promise<RecommendationResult[]> {
   const payload = toRecommendPayload(filters);
-  const data = await apiClient.post<RecommendationResponse | CarSummary[]>(
+  const data = await apiClient.post<RecommendationResponse | RecommendationResult[]>(
     "/cars/recommend",
     payload
   );

@@ -2,13 +2,13 @@ import { createContext, useCallback, useContext, useMemo, useState, type ReactNo
 import { fetchRecommendations } from "../api/cars";
 import { ApiError } from "../api/client";
 import { useToast } from "./ToastContext";
-import type { CarSummary, RecommendationFilters } from "../types/car";
+import type { RecommendationFilters, RecommendationResult } from "../types/car";
 
 const MAX_COMPARE = 2;
 
 interface AppDataContextValue {
   filters: RecommendationFilters | null;
-  results: CarSummary[];
+  results: RecommendationResult[];
   isLoading: boolean;
   error: string | null;
   runRecommendation: (filters: RecommendationFilters) => Promise<boolean>;
@@ -23,7 +23,7 @@ const AppDataContext = createContext<AppDataContextValue | undefined>(undefined)
 export function AppDataProvider({ children }: { children: ReactNode }) {
   const { showToast } = useToast();
   const [filters, setFilters] = useState<RecommendationFilters | null>(null);
-  const [results, setResults] = useState<CarSummary[]>([]);
+  const [results, setResults] = useState<RecommendationResult[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [compareIds, setCompareIds] = useState<string[]>([]);
